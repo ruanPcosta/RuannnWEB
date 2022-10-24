@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+    background-color: #171614;
+}
+
+p {
+    color: #F2F3D9;
+}
+
+ul {
+    background-color: #171614;
+}
+
+li {
+    color: #FCB0B3;
+    background-color: #171614;
+}
+
+h1 {
+    color: #F2F3D9;
+    background-color:#7D7C7A;
+}
+
+h2 {
+    color: #F2F3D9;
+    background-color:#7D7C7A;
+}
+
+h3 {
+    color: #F2F3D9;
+    background-color:#7D7C7A;
+}
+
+a {
+    color: #F2F3D9;
+}

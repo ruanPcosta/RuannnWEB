@@ -7,33 +7,6 @@
     <title>Fale conosco</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css"> 
-    <style>
-        body{
-            background-color:#000F;
-        }
-
-        h1{
-            color:#FCB0B3;
-            background-color: #000F;
-        }
-        h2{
-            color:#FCB0B3;
-            background-color:#000F;
-        }
-        h3{
-            color:#FCB0B3;
-            background-color:#000F;
-
-        }
-        p {
-            color:#A31621;
-            background-color:#000F;
-
-        }
-        a{
-            color: #FCB0B3;
-        }
-    </style>
 </head>
 <body>
     <h1>MENU</h1>
@@ -51,6 +24,116 @@
     <h2> Formas de contato</h2>
     <p> Existe uma forma de me contatar, que é pelo meu twitter. Deixarei logo abaixo</p>
     <h3> <a href="https://twitter.com/onceuntildie" > Meu twitter</a></h3>
+
+    <br>
+
+    <h1> Formulario do torcedor</h1>
+
+    <form>
+        <fieldset>
+            <legend> Identificação do torcedor</legend>
+
+            <p>
+                <label for="torcedorR"> Nome:</label>
+                <input type="text" name="ruanform1" id="torcedorR" size="30" placeholder="Apelido é aceito" >
+
+            </p>
+            <p>
+                <label for="emailR"> Email:</label>
+                <input type="email" name="ruanform2" id="emailR">
+            </p>
+
+            <p>
+                <label for="senhaR"> Senha:</label>
+                <input type="password" name="ruanform3" id="senhaR" minlength="8" maxlength="25" placeholder="8 a 25 caracteres"> 
+            </p>
+            <p>
+                <label for="timeR"> Seu time brasileiro:</label>
+                <input type="text" name="ruanform4" id="timeR">                
+            </p>
+
+            <p>
+                <label for="dataR"> Quando comecou a torcer:</label>
+                <input type="date" name="ruanform5" id="dataR">
+            </p>
+
+            <p>
+                <label for="compR"> Quantas competições voce acompanha no futebol sulamericano?</label>
+                <input type="number" name="ruanform6" id="compR" min="1">
+            </p>
+
+                
+
+            <p>
+            <legend>Qual competição te atrai mais?</legend>
+                
+               <p> <label for="libertaR">Libertadores </label>
+                <input type="radio" name="ruanform7" id="libertaR">
+               </p> 
+
+               <p> <label for="brasaR">Brasileirão</label>
+                <input type="radio" name="ruanform7" id="brasaR">
+               </p>
+
+               <p> <label for="cdbR">Copa do Brasil</label>
+                <input type="radio" name="ruanform7" id="cdbR">
+               </p>
+
+               <p> <label for="sulaR">Sulamericana</label>
+                <input type="radio" name="ruanform7" id="sulaR">
+               </p>
+            </p>
+            
+            </fieldset>
+
+            <br>
+
+        <fieldset>
+            <label for="timeRu">Seu time europeu (se tiver um)</label>
+                <input type="text" name="ruanform8" id="timeRu">
+
+                <p>
+                    <legend> Qual competição europeia te atrai mais?</legend>
+                </p>
+                <p> <label for="uclR">UEFA Champions League </label>
+                    <input type="radio" name="ruanform9" id="uclR">
+                   </p> 
+    
+                   <p> <label for="laligaR">La Liga</label>
+                    <input type="radio" name="ruanform9" id="laligaR">
+                   </p>
+    
+                   <p> <label for="plR">Premier League</label>
+                    <input type="radio" name="ruanform9" id="plR">
+                   </p>
+    
+                   <p> <label for="serieAR">Serie A TIM</label>
+                    <input type="radio" name="ruanform9" id="serieAr">
+                   </p>
+
+                   <label for="rangeR">Nivel de satisfação com seu(s) time(s)?</label>
+                   <input type="range" name="ruanform10" id="rangeR" min="0" max="10" step="any">
+                </p>
+
+                   
+                   
+                   <p><legend> Quer receber noticias sobre ele(s) aqui?</legend>
+                   
+                   <label for="checkR">Sim</label>
+                   <input type="radio" name="ruanform11" id="checkR">
+
+                   <label for="checkR2">Não</label>
+                   <input type="radio" name="ruanform11" id="checkR2">
+                   </p>
+
+                </p>
+
+        </fieldset>
+        <br>
+        <label for="buttonR"></label>
+        <input type="button" name="ruanform12" id="buttonR" value="Enviar formulário">
+
+    </form>
     
 </body>
 </html>

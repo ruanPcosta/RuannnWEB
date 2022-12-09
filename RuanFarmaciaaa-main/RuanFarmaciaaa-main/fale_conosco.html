@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Fale conosco</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" rel="prev">Página inicial</a>
+            </li>
+
+            <li><a href="galeria.html" >Galeria de fotos da FarmaCosta</a>
+            </li>
+            <li><a href="fale_conosco.html">Entre em contato conosco</a>
+            </li>
+            <li><a href="mundo_farmaceutico.html" rel="next">Mundo farmaceutico</a>
+            </li>
+            
+            <li><a href="produtos_gerais.html">Produtos</a>
+                <ul>
+                    <li><a href="medicamentos.html">Medicamentos</a></li>
+                    <li><a href="suplementos.html">Suplementos</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main> <h1 style="color: var(--cor3ruan);">Fale Conosco e Formulário do cliente</h1>
+        
+        <p>Link do meu twitter abaixo</p>
+        <h3> <a href="https://twitter.com/onceuntildie" > Meu twitter</a></h3>
+
+        <form>
+            <fieldset>
+                <legend> Formulário do cliente</legend>
+    
+                <p>
+                    
+                    <label for="clienteR"> Nome do cliente:</label>
+                   
+                    <input class="inputs" type="text" name="ruanform1" id="clienteR" size="30" placeholder="Apelido é aceito" >
+                  
+    
+                </p>
+                <p>
+                    <label for="emailR"> Email do cliente:</label>
+                    <input class="inputs" type="email" name="ruanform2" id="emailR">
+                </p>
+                <p>
+                    <label for="senhaR"> Senha:</label>
+                    <input class="inputs" type="password" name="ruanform3" id="senhaR" minlength="8" maxlength="25" placeholder="8 a 25 caracteres"> 
+                </p>
+                
+                <p>
+                    <label for="remedioR"> O remédio que voce mais consome:</label>
+                    <input class="inputs" type="text" name="ruanform4" id="remedioR">                
+                </p>
+    
+                <p>
+                    <label for="dataR"> Data da última compra de medicamento que voce fez :</label>
+                    <input class="inputs" type="date" name="ruanform5" id="dataR">
+                </p>
+    
+                <p>
+                    <label for="compR"> Quantos medicamentos voce toma diariamente?</label>
+                    <input class="inputs" type="number" name="ruanform6" id="compR" min="1">
+                </p>
+                <p>
+                    </fieldset>
+                </main> 
+                    
+                <main><fieldset>
+                    <legend> Qual medicamento voce está mais sujeito a comprar?</legend>
+                </p>
+                <p> <input type="radio" name="ruanform7" id="dipR">
+                    <label for="dipR">Dipirona em comprimido </label>
+                </p> 
+    
+                   <p><input type="radio" name="ruanform7" id="ibuproR">
+                    <label for="ibuproR">ibuprofeno</label>
+                </p>
+    
+                   <p> <input type="radio" name="ruanform7" id="dip2R">
+                    <label for="dip2R">Dipirona liquida</label>
+                </p>
+                   <br>
+    
+    
+                   <label for="rangeR">Nivel de efeitos colaterais que voce sente ao consumir algum remédio mais pesado</label>
+                   <input class="inputs"   type="range" name="ruanform10" id="rangeR" min="0" max="10" step="any">
+                </p>
+            
+                    <p><legend> Quer receber noticias sobre novos medicamentos?</legend>
+                   
+                       <input type="radio" name="ruanform11" id="checkR">
+                       <label for="checkR">Sim</label>
+                        
+                      <input type="radio" name="ruanform11" id="checkR2">
+                      <label for="checkR2">Não</label> 
+                    </p>
+
+                        <p><legend>Qual medicamento foi mais eficiente para voce?</legend></p>
+                        <select class="inputs" name="medica">
+                         <option value="ib">Ibuprofeno</option>
+                         <option value="dip">Dipirona(comprimido)</option>
+                         <option value="dip2">Dipirona(liquido)</option>
+                        </select>
+                    </fieldset>
+        </form>
+                     </p>
+                </main>               
+
+    
+</body>
+</html>
